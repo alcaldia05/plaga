@@ -1,7 +1,7 @@
 import os
 import ProxyCloud
 
-BOT_TOKEN =  os.environ.get('bot_token','5593162832:AAFnt3oA20cZ5P4cB-RajHm-nu4h1x3NEKc')
+BOT_TOKEN =  os.environ.get('bot_token','5777043254:AAGky5P7SMDNfhpET7rtxY8qAhi-mUwA_VI')
 API_ID =  os.environ.get('api_id','17232014')
 API_HASH = os.environ.get('api_hash','5eb747e0b34842c90a32af2df2364e32')
 SPLIT_FILE = 1024 * 1024 * int(os.environ.get('split_file','99'))
