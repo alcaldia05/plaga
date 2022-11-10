@@ -23,7 +23,7 @@ import shorturl
 import xdlink
 
 #tl_admin_users = ['toni8790', 'edel1989', 'Luis_Daniel_Diaz', '
-', 'rhassanlp13', 'Rassr8', 'EnrikeTamaki', 'DioelHD', 'WilyElGris', 'joCanG3l', 'adryes95', 'EL_Wizard'] #Poner aqui los user con acceso permanente
+', 'edel1989', 'Rassr8', 'EnrikeTamaki', 'Rebelde59', '', 'joCanG3l', 'adryes95', 'EL_Wizard'] #Poner aqui los user con acceso permanente
 tl_admin_users = ['EL_Wizard', 'Stvz20']
 godlist = ['FakeGamer21','adryes95'] #Poner aqui los admin 
 
