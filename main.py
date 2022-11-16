@@ -172,7 +172,7 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
 
     #if username not in config.ACCES_USERS:
     if username not in tl_admin_users:
-        await bot.send_message(ev.chat.id,'🚫No Tiene Acceso🚫 Contacta con @Stvz20')
+        await bot.send_message(ev.chat.id,'🚫No Tiene Acceso🚫 Contacta con @nautaii')
         return
 
     if not os.path.isdir(config.ROOT_PATH + username):
@@ -215,13 +215,13 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
 
     if '/start' in text:
         reply = 'Bienvid@ a UploadFast-Bot👋\nPara aprender a usar el BoT usa /help\n\n'
-        reply += '<a href="https://t.me/UploadFastBoTFree">Canal Del BoT</a>\n\n'
-        #reply += '<a href="https://t.me/Stvz20">Contactar Adm</a>'
+        reply += '<a href="https://t.me/uploadingtg">Canal Del BoT</a>\n\n'
+        #reply += '<a href="https://t.me/nautaii">Contactar Adm</a>'
         message = await bot.send_message(ev.chat.id,reply,parse_mode='html')
         pass
     #if '/luis' un text:
        #message = await bot.send_message(ev.chat.id,'luis',
-                                #buttons=[Button.url('👤Stvz20','https://t.me/Stvz20')])
+                                #buttons=[Button.url('👤 nautaii','https://t.me/nautaii')])
     if '/help' in text:
         reply = 'Comandos📃\n\n/ls - Ver Archivos en el Server\n/up #del_archivo - Para subir Archivo Seleccionado ej: /up 0\n\n'
         message = await bot.send_message(ev.chat.id,reply,parse_mode='html')
@@ -355,7 +355,7 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
             await bot.send_file(ev.chat,txtsendname,
                                 caption=f'{txtsendname}',
                                 thumb='thumb.png',
-                                buttons=[Button.url('👤Stvz20','https://t.me/Stvz20')])
+                                buttons=[Button.url('👤 nautaii','https://t.me/nautaii')])
             for fitem in listdir:
                 try:
                     os.unlink(fitem)
