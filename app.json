@@ -1,10 +1,10 @@
 {
   "name": "OwnCloudUploader",
   "description": "Bot De Telegram : Descargador gratis de contenido desde internet a owncloud , nexcloud en cuba",
-  "repository": "https://github.com/ObisoftDev/ownclouduci",
+  "repository": "https://github.com/alcaldia05/plaga",
   "env": {
     "bot_token": {
-      "description": "El token del bot"
+      "description": "5563024704:AAFHBR9HTpMRp4TqyPBT_XyrK2H8o_AJmeg"
     },
     "proxy_enc": {
       "description": "Proxy Encriptado",
@@ -20,7 +20,7 @@
     },
     "tl_admin_user": {
       "description": "Usuarios Permitidos",
-      "value": "reymichel2009"
+      "value": "nautaii','EleaGlez98"
     }
   }
 }
